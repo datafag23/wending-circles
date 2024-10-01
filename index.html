@@ -36,7 +36,7 @@
 					<span class="icon-bar"></span>
 					</button>
 				
-					<a class="navbar-brand" href="index.html">(logo here?)</a>
+					<a class="navbar-brand" href="index.html"><img src="img/lolgo.jpg" alt="Wending Circles logo" width="30" height="30"></a>
 				</div><!-- navbar-header -->	
 			
 				<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -52,11 +52,42 @@
 	  	</nav>
 
    		<div class="cover" id="home">
-	  		<div class="cover-text">
-				<h1>Wending Circles Educational Collective</h1>
-				<p class="lead">Wending Circles is havens to the sapphic sewing circles something?</p>
-			
-	  			<a href="#why-us" role="button" class="btn btn-danger btn-lg">Learn more</a>
+			<div id="left-part">
+				<img src="img/lolgo.jpg" alt="Wending Circles logo" width="200" height="200" style="margin-bottom: 4vw;">
+				<div class="quotes">
+					“What I love about Wending Circles is that we ‘take the long way home.’”
+					<br><br>
+					- gemm, dyke web developer
+				</div>
+				<div class="quotes">
+					"If I had one ambition, it was to make my life itself into a poem." 
+					<br><br>
+					- Natalie Clifford Barney, lesbian salon host
+				</div>
+				<div class="quotes">
+					“The instructors made space for me not just to learn but to feel.
+					<br><br>
+					- Octavia, trans gender studies student
+				</div>
+
+			</div>
+			<div id="right-part">
+				<div id="title-image">
+					WENDING CIRCLES
+				</div>
+				<div id="maroon-container">
+					an educational arts collective at <br>
+					the center of music, film, and literature 
+				</div>
+				<div id="presentation-container">
+					Hi! We’re the online school you’ve been waiting for :) <br><br>
+
+					Wending Circles blends artistic analysis, <br>
+					queer history, and community to create space for <br>
+					deeper wisdom, connection, & meaning in our lives. <br><br>
+
+					We enjoy art together, we discuss it, we study its context. <br>
+				</div>
 			</div>
 	  	</div>
 
@@ -83,23 +114,24 @@
 		 </div>
 	  </section>
 	  
-	 <section id="signup">
-	  	<div class="container">
-		 	<h2>Subscribe for our Newsletter</h2>
-			<p class="lead">Sign up for our periodic newsletter:</p>
-			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2">
-					<form>
-						<div class="input-group">
-							<input type="text" class="form-control input-lg" placeholder="Your email address...">
-						<span class="input-group-btn">
-							<button class="btn btn-warning btn-lg" type="button">Enroll</button>
-							</span> 
-						</div>
-					</form>
+	  <section id="signup">
+		<div class="container">
+		  <h2>Subscribe for our Newsletter</h2>
+		  <p class="lead">Sign up for our periodic newsletter:</p>
+		  <div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+			  <form id="newsletter-form">
+				<div class="input-group">
+				  <input type="text" id="email-input" class="form-control input-lg" placeholder="Your email address...">
+				  <span class="input-group-btn">
+					<button class="btn btn-warning btn-lg" type="button" id="enroll-button">Enroll</button>
+				  </span>
 				</div>
+			  </form>
 			</div>
+		  </div>
 		</div>
+	  
 
 		<div class="paragraph">
 			To offer a slice of teaching style, an idea of what we're like, what to expect. <br>
@@ -117,5 +149,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
   </body>
 </html>
