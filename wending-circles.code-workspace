@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "wending-circles",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wending-circles"
+	}
+}
