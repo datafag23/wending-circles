@@ -29,11 +29,11 @@ body{
 	display: flex;
 	align-items: center;
 	width: 100%;
-	gap: 1vw;
-	padding: 0 5%;
+	gap: 0.5vw; /* 1vw - 0.5vw */
+	padding: 0 4.5%; /* 5% - 0.5vw */
 	box-shadow: inset 0 0 100px #100;
 	margin-top: -80px;
-	padding-bottom: 3vw;
+	padding-bottom: 2.5vw; /* 3vw - 0.5vw */
 }
 
 #left-part {
@@ -42,15 +42,15 @@ body{
 	align-items: center;
 	justify-content: flex-start;
 	height: 100%;
-	width: 40%;
+	width: 39.5%; /* 40% - 0.5vw */
 	margin-top: 200px;
-	gap: 3vw;
+	gap: 2.5vw; /* 3vw - 0.5vw */
 }
 
 .quotes {
 	font-family: "DeFonte Leger";
-	font-size: 2vw;
-	width: 70%;
+	font-size: 1.5vw; /* 2vw - 0.5vw */
+	width: 69.5%; /* 70% - 0.5vw */
 	color: #0c162c;
 	text-align: center;
 	background-color: #809d67;
@@ -64,21 +64,20 @@ body{
 	align-items: center;
 	justify-content: flex-start;
 	height: 100%;
-	width: 80%;
+	width: 79.5%; /* 80% - 0.5vw */
 	margin-top: 200px;
 }
 
 #title-image {
 	background: url('img/snowy-mountain.jpeg') no-repeat;
 	background-size: cover;
-	/* or background-size: contain; */
 	font-family: "DeFonte Normale";
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	font-size: 5vw;
+	font-size: 4.5vw; /* 5vw - 0.5vw */
 	width: 100%;
-	height: 15vw;
+	height: 14.5vw; /* 15vw - 0.5vw */
 	box-shadow: inset 0 0 100px #100;
 	color: white;
 }
@@ -87,8 +86,8 @@ body{
 	display: flex;
 	justify-content: center;
 	font-family: "DeFonte Leger";
-	font-size: 3.2vw;
-	padding: 1vw;
+	font-size: 2.7vw; /* 3.2vw - 0.5vw */
+	padding: 0.5vw; /* 1vw - 0.5vw */
 	text-align: center;
 	background-color: #7b3a2a;
 	color: #809d67;
@@ -101,50 +100,50 @@ body{
 	display: flex;
 	justify-content: center;
 	font-family: "DeFonte Leger";
-	font-size: 2.2vw;
-	padding: 1vw;
+	font-size: 1.7vw; /* 2.2vw - 0.5vw */
+	padding: 0.5vw; /* 1vw - 0.5vw */
 	text-align: center;
 	background-color: #5c2c20;
 	color: #d2d9eb;
 	width: 100%;
 	border-radius: 50px;
-	margin-top: 2vw;
+	margin-top: 1.5vw; /* 2vw - 0.5vw */
 }
 
 #stay-connected {
 	background: url('img/stay-connected.jpeg') no-repeat;
 	background-size: cover;
 	display: flex;
-	width: 50vw;
-	height: 15vw;
+	width: 49.5vw; /* 50vw - 0.5vw */
+	height: 14.5vw; /* 15vw - 0.5vw */
 	box-shadow: inset 0 0 100px #100;
-	margin-top: 2vw;
+	margin-top: 1.5vw; /* 2vw - 0.5vw */
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.5%;
+	padding: 1%; /* 1.5% - 0.5vw */
 }
 
 #stay-title {
 	font-family: "DeFonte Leger";
-	font-size: 4.5vw;
+	font-size: 4vw; /* 4.5vw - 0.5vw */
 	color: #552013;
-	padding: 0% 1%;
+	padding: 0% 0.5%; /* 1% - 0.5vw */
 	background-color: rgba(240, 248, 255, 0.11);
 }
 
 #newsletter {
 	font-family: "Halimun";
-	font-size: 3vw;
+	font-size: 2.5vw; /* 3vw - 0.5vw */
 	color: #aace8c;
 	background-color: rgba(0, 0, 0, 0.226);
 }
 
 .enroll {
 	font-family: "DeFonte Leger";
-	font-size: 2vw;
+	font-size: 1.5vw; /* 2vw - 0.5vw */
 	color: white;
-	margin-top: 2vw;
+	margin-top: 1.5vw; /* 2vw - 0.5vw */
 }
 
 .email-form {
@@ -152,11 +151,11 @@ body{
 	padding: 20px;
 	top: 50%;
 	border-radius: 20px;
-	width: 50vw;
+	width: 49.5vw; /* 50vw - 0.5vw */
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	align-items: center;
-	margin-top: 2vw;
+	margin-top: 1.5vw; /* 2vw - 0.5vw */
 }
 
 input[type="email"] {
@@ -186,7 +185,7 @@ button:hover {
 #message {
 	font-family: "DeFonte Leger";
 	margin-top: 10px;
-	font-size: 1.5vw;
+	font-size: 1vw; /* 1.5vw - 0.5vw */
 	color: #ffffff;
 }
 
@@ -201,26 +200,26 @@ button:hover {
 
 #course-header {
 	display: flex;
-	gap: 4vw;
-	margin-top: 4vw;
+	gap: 3.5vw; /* 4vw - 0.5vw */
+	margin-top: 3.5vw; /* 4vw - 0.5vw */
 }
 
-#logo{
+#logo {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
 	font-family: "DeFonte Leger";
-	font-size: 3vw;
-	color: #c2cadd
+	font-size: 2.5vw; /* 3vw - 0.5vw */
+	color: #c2cadd;
 }
 
 #course-image {
 	background: url('img/course-catalogue.jpeg') no-repeat;
 	background-size: cover;
 	display: flex;
-	width: 60vw;
-	height: 25vw;
+	width: 59.5vw; /* 60vw - 0.5vw */
+	height: 24.5vw; /* 25vw - 0.5vw */
 	box-shadow: inset 0 0 100px #100;
 	flex-direction: column;
 	justify-content: space-between;
@@ -229,14 +228,14 @@ button:hover {
 
 #course-title {
 	font-family: "DeFonte Leger";
-	font-size: 4.5vw;
+	font-size: 4vw; /* 4.5vw - 0.5vw */
 	color: white;
-	padding: 0% 1%;
+	padding: 0% 0.5%; /* 1% - 0.5vw */
 }
 
 #clubs {
 	font-family: "Halimun";
-	font-size: 3vw;
+	font-size: 2.5vw; /* 3vw - 0.5vw */
 	color: #ffb8c6;
 }
 
@@ -247,20 +246,20 @@ button:hover {
 	justify-content: center;
 	width: 100%;
 	padding: 2%;
-	margin-top: 9vw;
-	gap: 0.5vw;
+	margin-top: 8.5vw; /* 9vw - 0.5vw */
+	gap: 0.5vw; /* 0.5vw - 0.5vw */
 }
 
 .course {
 	font-family: "DeFonte Leger";
 	display: flex;
-	padding: 1vw;
+	padding: 0.5vw; /* 1vw - 0.5vw */
 	width: 100%;
-	height: 9vw;
+	height: 8.5vw; /* 9vw - 0.5vw */
 	border-radius: 20px;
 }
 
-.first-half{
+.first-half {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -268,23 +267,23 @@ button:hover {
 	width: 50%;
 }
 
-.course-title{
+.course-title {
 	display: flex;
 }
 
-#poetry{
+#poetry {
 	background-color: #c17f68;
 }
 
-#art{
+#art {
 	background-color: #0c162c;
 }
 
-#history{
+#history {
 	background-color: #d7ad70;
 }
 
-#lesbianism{
+#lesbianism {
 	background-color: #bbaaff;
 }
 
@@ -297,7 +296,5 @@ button:hover {
 
 	section {
 		padding: 20px;
-
 	}
-
 }
